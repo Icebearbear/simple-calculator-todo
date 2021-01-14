@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    <title>My website</title>
+</head>
+<script src="test.js"></script>
+
+<body>
+    <h1>Welcome to Icebear website</h1>
+    <br/>
+    <p>Icebear's calculator</p>
+    <input id="input1" type="number"/>
+    <input id="input2" type="number"/>
+    <select id="operator">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>  
+    </select>
+    <button onclick="calculate()">Calculate</button>
+    <br/>
+    <p >Result :</p>
+    <h7 id="result"></h1>
+
+    <br/>
+    <p>Icebear's Todo List</p>
+    <div>
+        <p>New Task</p>
+        <input id="input3" type="text">
+        <button id="add" onclick="addTask()">Add</button>
+    </div>
+    <br/>
+    <div>
+        <p>Delete Task</p>
+        <input id="input4" type="text">
+        <button id="delete" onclick="deleteTask()">Delete</button>
+    </div>
+    <br/>
+    <div>
+        <button id="deleteAll" onclick="deleteAllTask()">Delete All</button>
+    </div>
+    <div id="tasks">
+
+
+    </div>
+    
+</body>
+</html>

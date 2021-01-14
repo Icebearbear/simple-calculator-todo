@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    color: blueviolet;
+    background-image: url("icebear.jpg");
+
+
+}
+
+div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border-style: inset; */
+    border-width: thick;
+    border-radius: 5px;
+    padding: 10px;
+
+
+}
+
+input{
+    background-color: aqua;
+    border-radius : 5px;
+    border-style: hidden;
+    padding: 10px;
+}
+
+button{
+    border-radius : 5px;
+    border-style: hidden;
+    padding: 10px;
+
+}
+
+h1 {
+    outline-style: outset;
+}
